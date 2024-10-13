@@ -7,11 +7,11 @@ public class Main {
     public static PrintStream out = System.out;
     public static void main(String[] args) {
         int A = in.nextInt(); // Ввод натурального числа
-        int B = in.nextInt();
-        int C = in.nextInt();
-        int D = in.nextInt();
-        int MinNN = 1;
-        boolean foundProgression = false;
+        int B = in.nextInt(); // Ввод натурального числа
+        int C = in.nextInt(); // Ввод натурального числа
+        int D = in.nextInt(); // Ввод натурального числа
+        int MinNN = 1; // Минимальное натуральное число
+        boolean foundProgression = false; // Значение, которое определеяет найдена прогрессия или нет
 
         //Проверка входных данных
         if (A >= MinNN & B >= MinNN & C >= MinNN & D >= MinNN) { 
