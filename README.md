@@ -113,10 +113,10 @@ graph TD
     J -- Нет --> M6[Ничего]
     K -- Да --> M7[/Вывод прогрессии из трёх элементов в порядке возрастания, смена значения переменной foundProgression на true/]
     K -- Нет --> M8[Ничего]
-    H --> N{Значение переменной foundProgression = false?}
-    I --> N{Значение переменной foundProgression = false?}
-    J --> N{Значение переменной foundProgression = false?}
-    K --> N{Значение переменной foundProgression = false?}
+    M1 --> N{Значение переменной foundProgression = false?}
+    M3 --> N{Значение переменной foundProgression = false?}
+    M5 --> N{Значение переменной foundProgression = false?}
+    M7 --> N{Значение переменной foundProgression = false?}
     N -- Да --> O1[/Вывод: Здесь нет прогрессий!/] --> Z([Конец])
     N -- Нет --> O2[Ничего] --> Z([Конец])
 
